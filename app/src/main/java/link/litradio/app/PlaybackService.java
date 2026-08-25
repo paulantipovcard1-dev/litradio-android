@@ -1,4 +1,4 @@
-app/src/main/java/link/litradio/app/PlaybackService.javapackage link.litradio.app;
+package link.litradio.app;
 
 import androidx.annotation.Nullable;
 import androidx.media3.common.MediaItem;
