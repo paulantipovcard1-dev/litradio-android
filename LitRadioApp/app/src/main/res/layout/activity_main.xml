@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FBF9F3"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Litradio"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textColor="#1A1A1A"
+        android:layout_marginBottom="48dp" />
+
+    <ImageButton
+        android:id="@+id/playButton"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:background="@android:drawable/btn_default"
+        android:src="@android:drawable/ic_media_play"
+        android:contentDescription="Play/Pause"
+        android:scaleType="fitCenter"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Не ўдалося атрымаць назву"
+        android:textSize="14sp"
+        android:textColor="#888888"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/trackTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="#1A1A1A"
+        android:gravity="center"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
