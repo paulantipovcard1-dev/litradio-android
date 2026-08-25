@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LitRadio</string>
+    <string name="stream_url">https://litradio.link/radio.mp3</string>
+    <string name="stream_status_json">https://litradio.link/status-json.xsl</string>
+</resources>
